@@ -1,0 +1,3 @@
+[submodule "deps/pncc"]
+	path = deps/pncc
+	url = ../pncc.git
