@@ -15,7 +15,7 @@ outputdir=output
 
 source ${script_dir}/compile.sh
 
-version="1.0.0"
+version=$(cat ${script_dir}/../deps/pncc/version.txt)
 
 package="pkg-pncc"
 maintainer="mis-tools/pncc <https://github.com/mis-tools/pncc/issues>"
